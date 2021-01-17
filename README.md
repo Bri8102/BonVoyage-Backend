@@ -1,24 +1,38 @@
-# README
+# React, Redux, and Rails Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+- Ruby
+- Rails and ActiveRecord
+- Sqlite 3
+- HTML5 & CSS
+- React-Bootstrap
+- React
+- Redux
+- Javascript
+- JSX
 
-Things you may want to cover:
+# Usage
+Clone front-end down from <a href="https://github.com/Bri8102/BonVoyage-Frontend">github.</a>
 
-* Ruby version
+Clone back-end down from <a href="https://github.com/Bri8102/BonVoyage-Backend">github.</a>
 
-* System dependencies
+Backend: (run on localhost:3000)
 
-* Configuration
+```
+bundle install
+rails db:create
+rails db:migrate
+rails s
+```
 
-* Database creation
 
-* Database initialization
+Frontend: (run on localhost:3001)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+npm install
+npm start
+Npm install to download dependencies. 
+Npm start to start the server. 
+```
+# License
+<a href="https://choosealicense.com/licenses/mit/">MIT</a>
