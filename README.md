@@ -34,5 +34,8 @@ npm start
 Npm install to download dependencies. 
 Npm start to start the server. 
 ```
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 # License
 <a href="https://choosealicense.com/licenses/mit/">MIT</a>
