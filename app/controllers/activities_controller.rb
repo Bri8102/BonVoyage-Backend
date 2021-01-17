@@ -34,8 +34,6 @@ class ActivitiesController < ApplicationController
   end
 
   def set_destination
-    # binding.pry
-    # @destination = Destination.find(params[:destination_id])
     unless @destination = Destination.where(id: params[:destination_id]).first
       redirect_to destinations_path, flash: {alert: "Destination doesn't exists"}
     end
