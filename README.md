@@ -31,8 +31,6 @@ Frontend: (run on localhost:3001)
 ```
 npm install
 npm start
-Npm install to download dependencies. 
-Npm start to start the server. 
 ```
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
